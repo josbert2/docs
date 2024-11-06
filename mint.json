@@ -1,15 +1,15 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Docs J",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#f38787",
+    "light": "#f38787",
+    "dark": "#f38787",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
@@ -29,6 +29,10 @@
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Deudores",
+      "url": "deudores"
     }
   ],
   "anchors": [
@@ -49,6 +53,15 @@
     }
   ],
   "navigation": [
+    {
+      "group": "Anotaciones",
+      "pages": [
+        "anotaciones/anotaciones",
+        "anotaciones/serverless",
+        "anotaciones/laravelvapor",
+        "anotaciones/generacion-password"
+      ]
+    },
     {
       "group": "Get Started",
       "pages": [
@@ -84,8 +97,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/JosbertHern",
+    "github": "https://github.com/josbert2",
+    "linkedin": "https://www.linkedin.com/in/josbert-hernandez-317b77113/"
   }
 }
