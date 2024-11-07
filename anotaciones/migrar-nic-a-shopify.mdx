@@ -1,0 +1,22 @@
+Para migrar dominios de NIC a Shopify con cloudflare, se debe seguir el siguiente proceso:
+
+
+
+
+1. Primero ir a cloudflare, añadir el dominio y añadir la configuración de DNS.
+
+ ```java 	
+Tipo     Nombre              Valor/Contenido                 TTL
+A        restroplan.cl       23.227.38.65                    1hr
+CNAME    www                 shops.myshopify.com         1hr
+```
+
+2. Cloudflare nos entregara un listado de registros DNS, en el hosting de NIC debemos poner los siguientes registros NS.
+
+```java 
+bonnie.ns.cloudflare.com
+jermaine.ns.cloudflare.com
+```
+
+3. Ir a shopify y en la sección de dominios añadir el dominio, www.exaple.cl esto nos permitirá que los usuarios puedan acceder al dominio de shopify con y sin www.
+
