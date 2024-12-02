@@ -31,8 +31,20 @@
       "url": "api-reference"
     },
     {
-      "name": "Deudores",
-      "url": "deudores"
+      "name": "Content",
+      "url": "content"
+    },
+    {
+      "name": "Design Fluent VS Code",
+      "url": "fluent"
+    },
+    {
+      "name": "Symfony",
+      "url": "symfony"
+    },
+    {
+      "name": "Xprinter",
+      "url": "xprinter"
     }
   ],
   "anchors": [
@@ -86,6 +98,24 @@
       "group": "API Documentation",
       "pages": [
         "api-reference/introduction"
+      ]
+    },
+    {
+      "group": "Fluent",
+      "pages": [
+        "fluent/introduction"
+      ]
+    },
+    {
+      "group": "Symfony",
+      "pages": [
+        "symfony/introduction"
+      ]
+    },
+    {
+      "group": "xprinter",
+      "pages": [
+        "xprinter/introduction"
       ]
     },
     {

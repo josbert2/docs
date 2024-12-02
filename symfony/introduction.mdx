@@ -1,0 +1,81 @@
+---
+title: 'Introduction'
+description: 'Mapeando de django a symfony'
+---
+
+
+# Identificar el proyecto django a mapear
+
+La api de django se encuentra en `api.boookforce.io` con la ip  
+```shell
+54.88.23.155
+```
+
+# Necesitamos saber las migraciones que se hicieron en django
+
+```shell
+activities - 0001_initial
+activities - 0002_rulevalidationevent
+activities - 0003_alter_rulevalidationevent_id_and_more
+activities - 0004_assistant_fecha_nacimiento
+activities - 0004_activity_easy_cancellation_and_more
+activities - 0005_merge_20240527_1323
+activities - 0006_activityblock_azul_activityblock_rojo_and_more
+activities - 0007_activity_after_event_minutes_and_more
+activities - 0008_item_ajuste
+activities - 0008_activityevent_activity_schedule
+activities - 0009_merge_20240715_1435
+activities - 0010_item_custom_data
+activities - 0010_activity_easy_cancellation_hours_without_penalty
+activities - 0011_merge_20240807_0015
+activities - 0012_activity_custom_fields_on
+attendance_register - 0001_initial
+auth - 0001_initial
+auth - 0002_alter_permission_name_max_length
+auth - 0003_alter_user_email_max_length
+auth - 0004_alter_user_username_opts
+auth - 0005_alter_user_last_login_null
+auth - 0006_require_contenttypes_0002
+auth - 0007_alter_validators_add_error_messages
+auth - 0008_alter_user_username_max_length
+auth - 0009_alter_user_last_name_max_length
+auth - 0010_alter_group_name_max_length
+auth - 0011_update_proxy_permissions
+auth - 0012_alter_user_first_name_max_length
+clocks - 0001_initial
+contenttypes - 0001_initial
+contenttypes - 0002_remove_content_type_name
+finances - 0001_initial
+finances - 0002_paymentsmethodsbsale
+finances - 0003_cashier_staff
+finances - 0003_paymentsmethodsbsale_client
+finances - 0004_merge_20240727_0301
+finances - 0005_paymentsmethodsbsale_bsale_id
+finances - 0004_merge_20240801_1205
+finances - 0006_merge_20240805_1302
+logger - 0001_initial
+login - 0001_initial
+login - 0002_user_date_joined_user_first_name_user_groups_and_more
+login - 0003_client_plan_subscription
+login - 0004_client_temporizadores
+login - 0005_client_cancellation_insurance
+login - 0006_market_iva_market_timezone
+login - 0006_customfield_customfieldoption_customfieldactivity
+login - 0007_merge_20240805_1302
+login - 0008_market_iva_pais
+login - 0006_market_easy_cancellation_and_more
+login - 0009_merge_20240807_0015
+login - 0010_staff_validated
+login - 0011_client_attendance_staff_has_active_attendance
+login - 0012_customfield_question
+login - 0013_customfield_description
+permissions - 0001_initial
+promotions - 0001_initial
+promotions - 0002_promotionlist_promotionlistgroup_promotionlistcode
+promotions - 0003_field_delete_promotion
+promotions - 0004_promotionlist_date_expired
+promotions - 0005_promotionlistcode_date_expired
+sessions - 0001_initial
+whatsapp - 0001_initial
+whatsapp - 0002_whatsappsession_caregiver_id_temp_and_more
+```
