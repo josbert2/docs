@@ -1,0 +1,44 @@
+---
+title: 'Resetear entradas validadas con codigos'
+description: 'Description of your new file.'
+---
+
+# Para resetear las entradas a no validado se debe seguir lo siguiente
+
+###### Code Block
+
+Para resetear las entradas a no validado se debe seguir lo siguiente:
+- Identificar el código de la entrada que se desea resetear. 
+
+```
+Ejemplo: h5CdqHYM
+```
+
+
+
+
+"Query"
+
+```sql
+Select * from entrada where codigo = 'h5CdqHYM'
+```
+
+
+<img height="200" src="/images/example-code.png" />
+<img height="200" src="/images/2.png" />
+<img height="200" src="/images/3.png" />
+
+###### Para setear asistentes en la visualizacion 
+
+####### Se debe setear el finTIempo aque sea mayor a la fecha actual
+```sql
+Select * from entrada where id = 1634316
+```
+
+##### y asistente_local se debe setear la fecha_salida a null
+
+```sql
+Select * from asistente_local where id = 1634316
+```
+
+```sql

@@ -72,7 +72,8 @@
         "anotaciones/serverless",
         "anotaciones/laravelvapor",
         "anotaciones/generacion-password",
-        "anotaciones/migrar-nic-a-shopify"
+        "anotaciones/migrar-nic-a-shopify",
+        "anotaciones/reseatear-entrada-validada"
       ]
     },
     {
